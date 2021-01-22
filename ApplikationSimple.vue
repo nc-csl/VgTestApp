@@ -13,5 +13,8 @@ export default class Applikation extends Vue {
 }
 </script>
 <style scoped>
-
+  p {
+    font-size: 2em;
+    text-align: center;
+  }
 </style>
