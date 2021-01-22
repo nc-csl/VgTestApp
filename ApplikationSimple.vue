@@ -1,7 +1,5 @@
 <template>
-  <div class="applikation-container">
-
-  </div>
+  <p>{{ greeting }} World</p>
 </template>
 
 <script lang="ts">
@@ -11,13 +9,9 @@ import { Component, Vue } from 'vue-property-decorator';
   name: 'Applikation'
 })
 export default class Applikation extends Vue {
-
-
-  mounted() {
-    alert('hej');
-  }
+  private greeting = 'Hello';
 }
 </script>
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
