@@ -12,9 +12,4 @@ export default class Applikation extends Vue {
   private greeting = 'Hello3';
 }
 </script>
-<style scoped>
-  p {
-    font-size: 2em;
-    text-align: center;
-  }
-</style>
+
