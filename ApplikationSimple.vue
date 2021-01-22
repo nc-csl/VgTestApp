@@ -9,7 +9,7 @@ import { Component, Vue } from 'vue-property-decorator';
   name: 'Applikation'
 })
 export default class Applikation extends Vue {
-  private greeting = 'Hello';
+  private greeting = 'Hello2';
 }
 </script>
 <style scoped>

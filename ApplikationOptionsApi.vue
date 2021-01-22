@@ -7,6 +7,9 @@
       return {
         greeting: 'Hello'
       };
+    },
+    mounted() {
+      alert('hej');
     }
   };
 </script>
