@@ -1,21 +1,18 @@
 <template>
-  <div class="applikation-container">
-
-  </div>
+  <p>{{ greeting }} World!</p>
 </template>
-
 <script>
-module.exports = {
-  data: function() {
-    return {
-
+  module.exports = {
+    data: function () {
+      return {
+        greeting: 'Hello'
+      };
     }
-  },
-  mounted(){
-    alert('hej');
-  }
-}
+  };
 </script>
-<style lang="scss" scoped>
-
+<style scoped>
+  p {
+    font-size: 2em;
+    text-align: center;
+  }
 </style>
